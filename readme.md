@@ -49,3 +49,8 @@ The site shared components [`MainLayout.razor`](./src/Blazor.AdminLte.Site.Share
 With such markup you can render something like this:
 
 ![screenshot](docs/img/adminlte-screenshot.png)
+
+## Logged by Grammy
+
+1. Issue of ResolveBlazorRuntimeDependencies failure was met in the first try of build. Upgraded VS2019 to the latest update then issue gone.
+2. Default ports 5000/5001 of Blazor.AdminLte.Site might be used by other process. Modified it to random ports then both LiveReload and .NETCore emulators worked.
